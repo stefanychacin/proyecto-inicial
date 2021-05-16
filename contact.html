@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=”prefixfree.min.js”></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/598162fe43.js" crossorigin="anonymous"></script>
+<!--Fuentes link-->        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&family=Nanum+Gothic&display=swap" rel="stylesheet"/>
+<!--BOOTSTRAP LINKS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    
+    <title>Cont&aacute;ctanos</title>
+</head>
+<body>
+    <div class="contenedor"><br>
+		<header>
+            <h1 class="animate__animated animate__bounceInLeft">Kevin's desserts</h1>
+            <nav class="animate__animated animate__bounceInRight">        
+                <a href="index.html">Inicio</a>
+                <a href="aboutMe.html">Sobre mi</a>
+                <a href="contact.html">Cont&aacute;ctanos</a>
+                <a href="galery.html">Galeria de postres</a>        
+            </nav>
+		</header>
+
+		<div class="contenido">
+                <div class="form-group">
+
+				<p>Envianos tus sugerencias...</p>
+                <form>
+                    <label for="name">Nombre y apellido:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ej Marcos Garcia" name="name" required><br>
+
+                
+                    <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required><br>
+
+                    <label for="number">N&uacute;mero telef&oacute;nico:</label>
+                        <input type="tel" class="form-control" id="number" placeholder="01123234545" name="number" required><br>
+
+                        
+                    <label id="genero">G&eacute;nero:</label> <br>
+                        <input type="radio" class="form-check-input" name="genero" value="hombre">Hombre
+                        <input type="radio" class="form-check-input" name="genero" value="mujer">Mujer
+                        <input type="radio" class="form-check-input" name="genero" value="otro">Otro<br><br>
+                        
+                    <label for="comments">Deje su comentario o sugerencias:</label>
+                        <textarea name="comments" id="comments" class="form-control" rows="4" cols="50" placeholder="Deje su comentario aca." required></textarea><br>
+                        <input class="btn btn-primary" id="submit" type="submit">
+
+                </form>
+                </div>
+        </div>
+
+		<aside>
+			<div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52563.43852822474!2d-58.45603503253659!3d-34.5734283494618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1618696745475!5m2!1ses-419!2sar" ></iframe> 
+			</div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.333476321946!2d-58.46915680221704!3d-34.57464869987224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dd407c17db%3A0xf700e263552c9fa5!2sColegiales%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1620946024050!5m2!1ses-419!2sar" ></iframe>
+            </div>
+		</aside>
+
+		<footer>
+            <p>Enviame tus sugerencias al correo <a href="mailto:kevinquienterob@gmail.com">kevinquienterob@gmail.com</a></p>
+            <nav><br>
+                <a href="https://twitter.com/KevinQuinteroB" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/kevinquinterob/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/KevinQuinteroB" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </nav><br>
+            <p>
+                Copyright &copy; <script>document.write(new Date().getFullYear())</script> - Stefany Chacin, Todos los derechos reservados
+            </p>
+		</footer>
+	</div>
+</body>
